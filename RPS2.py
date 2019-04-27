@@ -1,5 +1,5 @@
 import random
-
+#Play rps against a computer#
 def beats(a,b):
     return (b == "rock" and a == "paper") or (b == "paper" and a == "scissors") or (b == "scissors" and a == "rock")
 
